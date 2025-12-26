@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan Ahmad & Anisah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <svg class="parang-bg" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+                <!-- Multi-layer parang motif -->
+                <defs>
+                    <pattern id="parang" patternUnits="userSpaceOnUse" width="100" height="100">
+                        <path d="M0,50 Q25,0 50,50 T100,50 V100 H0 Z" fill="#8B4513" opacity="0.3"/>
+                        <path d="M10,60 Q35,10 60,60 T110,60 V110 H10 Z" fill="#D2691E" opacity="0.2"/>
+                        <path d="M20,70 Q45,20 70,70 T120,70 V120 H20 Z" fill="#A0522D" opacity="0.4"/>
+                    </pattern>
+                </defs>
+                <rect width="800" height="200" fill="url(#parang)"/>
+            </svg>
+            <h1>Undangan Pernikahan</h1>
+            <svg class="wayang" viewBox="0 0 100 150" xmlns="http://www.w3.org/2000/svg">
+                <!-- Simple wayang figure -->
+                <circle cx="50" cy="30" r="15" fill="#8B4513"/>
+                <rect x="40" y="45" width="20" height="40" fill="#654321"/>
+                <rect x="35" y="85" width="30" height="10" fill="#8B4513"/>
+                <line x1="50" y1="45" x2="35" y2="65" stroke="#654321" stroke-width="3"/>
+                <line x1="50" y1="45" x2="65" y2="65" stroke="#654321" stroke-width="3"/>
+                <line x1="40" y1="95" x2="30" y2="110" stroke="#654321" stroke-width="3"/>
+                <line x1="60" y1="95" x2="70" y2="110" stroke="#654321" stroke-width="3"/>
+            </svg>
+        </header>
+        
+        <main>
+            <div class="couple">
+                <div class="person">
+                    <h2>Ahmad Askhabul Yamin</h2>
+                    <p>Anak dari Bapak M. Hasan & Ibu Sofiah</p>
+                </div>
+                <div class="ampersand">&</div>
+                <div class="person">
+                    <h2>Anisah Permata Sari</h2>
+                    <p>Anak dari Bapak Siman & Ibu Titin</p>
+                </div>
+            </div>
+            
+            <div class="details">
+                <h3>Detail Acara</h3>
+                <p><strong>Tanggal:</strong> 29 Desember 2025</p>
+                <p><strong>Waktu Akad:</strong> Pukul 09:00 WIB - Selesai</p>
+                <p><strong>Lokasi:</strong> Kediaman Mempelai Wanita<br>
+                Talesan Jajar, Purwantoro, Wonogiri</p>
+            </div>
+            
+            <div class="rsvp">
+                <h3>Kartu Ucapan</h3>
+                <form id="ucapanForm">
+                    <input type="text" id="nama" placeholder="Nama Anda" required>
+                    <textarea id="ucapan" placeholder="Ucapan Anda" required></textarea>
+                    <button type="submit">Kirim Ucapan via WhatsApp</button>
+                </form>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Dengan hormat,<br>Keluarga Besar Ahmad & Anisah</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

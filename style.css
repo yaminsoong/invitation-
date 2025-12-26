@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f1e8; /* Cream background */
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.parang-bg {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #8B4513; /* Saddle brown */
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.wayang {
+    width: 100px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.couple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.person {
+    flex: 1;
+    padding: 20px;
+}
+
+.ampersand {
+    font-size: 3em;
+    color: #DAA520; /* Goldenrod */
+    margin: 0 20px;
+}
+
+.details, .rsvp {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    color: #8B4513;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px;
+    background-color: #DAA520;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #B8860B; /* Dark goldenrod */
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #8B4513;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .couple {
+        flex-direction: column;
+    }
+    .ampersand {
+        margin: 20px 0;
+    }
+}
